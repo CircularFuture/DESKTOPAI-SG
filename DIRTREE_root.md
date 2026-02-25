@@ -1,0 +1,119 @@
+# DIRTREE_root
+
+Generated from current repository state. Excluded heavy/build/cache/VCS and binary/media folders/files to keep output concise and avoid diff/output limits.
+
+Excluded directories: `node_modules`, `dist`, `build`, `out`, `.next`, `coverage`, `.git`, `.turbo`, `.cache`, `venv`, and common media/binary folders (e.g., `assets`, `images`, `media`, `videos`, `audio`, `icons`, `screenshots`).
+
+```text
+.
+- .dockerignore
+- .github/
+- .gitignore
+- .husky/
+- .nvmrc
+- .prettierignore
+- .prettierrc
+- AGENTS.md
+- apps/
+- CLAUDE.md
+- CONTRIBUTING.md
+- docs/
+- eslint.config.js
+- LICENSE
+- package.json
+- packages/
+- pnpm-lock.yaml
+- pnpm-workspace.yaml
+- README.ar.md
+- README.es.md
+- README.id.md
+- README.ja.md
+- README.ko.md
+- README.md
+- README.tr.md
+- README.zh-CN.md
+- scripts/
+- SECURITY.md
+- TRADEMARKS.md
+  - dependabot.yml
+  - ISSUE_TEMPLATE/
+  - PULL_REQUEST_TEMPLATE.md
+  - release.yml
+  - workflows/
+  - _/
+  - pre-commit
+  - desktop/
+  - web/
+  - architecture.md
+  - agent-core/
+  - check-deps.cjs
+  - dev-kill.cjs
+  - dev-remote.cjs
+  - dev-runtime.cjs
+  - dev.cjs
+  - ensure-agent-core-built.cjs
+  - predev.cjs
+  - save-lockfile-hash.cjs
+    - bug_report.md
+    - feature_request.md
+    - ci.yml
+    - commitlint.yml
+    - refresh-agent-core-split.yml
+    - release.yml
+    - .gitignore
+    - applypatch-msg
+    - commit-msg
+    - h
+    - husky.sh
+    - post-applypatch
+    - post-checkout
+    - post-commit
+    - post-merge
+    - post-rewrite
+    - pre-applypatch
+    - pre-auto-gc
+    - pre-commit
+    - pre-merge-commit
+    - pre-push
+    - pre-rebase
+    - prepare-commit-msg
+    - __tests__/
+    - bundled-skills/
+    - clean_dmg_install.sh
+    - e2e/
+    - index.html
+    - package.json
+    - public/
+    - resources/
+    - run_local_ui_prod_api.sh
+    - run_local_ui_staging_api.sh
+    - run_prod.sh
+    - run_staging.sh
+    - scripts/
+    - src/
+    - tsconfig.json
+    - vite.config.ts
+    - vitest.config.ts
+    - vitest.integration.config.ts
+    - vitest.unit.config.ts
+    - __tests__/
+    - index.html
+    - locales/
+    - package.json
+    - postcss.config.js
+    - public/
+    - src/
+    - tailwind.config.ts
+    - tsconfig.client.json
+    - tsconfig.json
+    - vite.config.ts
+    - vitest.integration.config.ts
+    - vitest.unit.config.ts
+    - mcp-tools/
+    - package.json
+    - README.md
+    - src/
+    - tests/
+    - tsconfig.json
+    - vitest.config.ts
+```
